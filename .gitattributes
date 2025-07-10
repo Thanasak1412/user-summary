@@ -1,0 +1,6 @@
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+public/* linguist-generated
+build/* linguist-generated
+dist/* linguist-generated
+*.html linguist-generated
