@@ -1,0 +1,33 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec node -r ts-node/register src/index.ts",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "prettier": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "test:all": "npm run test:lint && npm run test:format && npm run test:format:write && npm run test:build && npm run test:dev",
+    "test:watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.12",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "winston": "^3.17.0"
+  }
+}
