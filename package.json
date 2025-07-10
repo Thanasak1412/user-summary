@@ -11,8 +11,9 @@
     "prettier": "prettier --check .",
     "prettier:write": "prettier --write .",
     "test:all": "npm run test:lint && npm run test:format && npm run test:format:write && npm run test:build && npm run test:dev",
-    "test:watch": "tsc --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
   "description": "",
   "devDependencies": {
     "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.0.12",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.5",
@@ -27,8 +29,10 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.6.0",
+    "jest": "^30.0.4",
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2",
+    "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },

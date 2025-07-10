@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1752160357915" clover="3.2.0">
+  <project timestamp="1752160357915" name="All files">
+    <metrics statements="35" coveredstatements="35" conditionals="8" coveredconditionals="7" methods="6" coveredmethods="6" elements="49" coveredelements="48" complexity="0" loc="35" ncloc="35" packages="1" files="1" classes="1"/>
+    <file name="helper.ts" path="D:\Projects\user-summary\src\utils\userHelper\helper.ts">
+      <metrics statements="35" coveredstatements="35" conditionals="8" coveredconditionals="7" methods="6" coveredmethods="6"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="39" count="2" type="stmt"/>
+      <line num="41" count="2" type="stmt"/>
+      <line num="44" count="2" type="stmt"/>
+      <line num="47" count="2" type="stmt"/>
+      <line num="50" count="2" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="60" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="62" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="68" count="2" type="stmt"/>
+      <line num="69" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="73" count="2" type="stmt"/>
+      <line num="74" count="2" type="stmt"/>
+      <line num="81" count="1" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="84" count="1" type="stmt"/>
+      <line num="85" count="1" type="stmt"/>
+      <line num="87" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

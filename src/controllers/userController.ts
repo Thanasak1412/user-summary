@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express';
 //
-import { fetchUsers, transformUserData } from '../utils/userHelper/helper';
+import { fetchUsers, transformUserData } from '../utils/user-helper/helper';
 import { logger } from '../config/config';
 
 export async function getUsers(_req: Request, res: Response) {
