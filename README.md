@@ -55,6 +55,6 @@ A simple Node.js project set up with TypeScript support.
 The project uses a standard TypeScript configuration with:
 - Source files in `src/`
 - Compiled output in `dist/`
-- CommonJS module system
-- ES2016 target
+- ES Module system
+- ES2024 target
 - Strict type checking enabled
